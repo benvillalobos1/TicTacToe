@@ -44,6 +44,14 @@ public class Board {
         }
     }
 
+    public void printBoard() {
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < col; j++) {
+
+            }
+        }
+    }
+
     public int getRows() { return rows; }
 
     public int getCol() { return col; }

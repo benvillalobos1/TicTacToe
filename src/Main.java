@@ -15,13 +15,10 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("Welcome to Tic Tac Toe");
-        String[] board = new String[9];
-        for (int i = 0; i < 9; i++) {
-            board[i] = " ";
-        }
+        Board board = new Board(9);
+
         boolean winCondition = true;
 
-        printBoard(board);
         while (winCondition) {
             winCondition = makeMove(board);
         }
